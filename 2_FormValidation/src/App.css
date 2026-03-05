@@ -1,0 +1,127 @@
+/* Card */
+.card {
+  width: 420px;
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  color: white;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 22px;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Password box */
+.password-wrapper {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Generator button */
+.generate {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #00c9ff;
+  background: linear-gradient(90deg,#00c9ff,#92fe9d);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Password rules */
+.rules {
+  margin-top: 12px;
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+.rules li {
+  margin-bottom: 4px;
+}
+
+.valid {
+  color: #00ff9d;
+}
+
+.invalid {
+  color: #ff6b6b;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit {
+  background: #4facfe;
+  color: white;
+}
+
+.reset {
+  background: #ff6b6b;
+  color: white;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Messages */
+.error {
+  font-size: 12px;
+  color: #ff6b6b;
+}
+
+.success {
+  text-align: center;
+  margin-top: 15px;
+  color: #00ff9d;
+  font-weight: bold;
+}

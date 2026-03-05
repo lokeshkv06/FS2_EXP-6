@@ -1,0 +1,116 @@
+.container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(120deg,#667eea,#764ba2);
+  padding:30px;
+}
+
+.form-box{
+  width:520px;
+  padding:40px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.15);
+  backdrop-filter:blur(12px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.3);
+  color:white;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:6px;
+}
+
+.subtitle{
+  text-align:center;
+  font-size:14px;
+  opacity:0.8;
+  margin-bottom:25px;
+}
+
+.grid-2{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+
+input,select,textarea{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  margin-top:14px;
+  font-size:14px;
+}
+
+textarea{
+  height:80px;
+  resize:none;
+}
+
+input:focus,select:focus,textarea:focus{
+  outline:none;
+  box-shadow:0 0 0 2px #ffffff80;
+}
+
+.section{
+  margin-top:20px;
+}
+
+.section label{
+  display:block;
+  margin-bottom:8px;
+  font-weight:600;
+}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.skill-chip{
+  padding:8px 14px;
+  background:white;
+  color:#333;
+  border-radius:20px;
+  font-size:13px;
+  display:flex;
+  gap:6px;
+  align-items:center;
+  cursor:pointer;
+}
+
+.gender{
+  display:flex;
+  gap:20px;
+}
+
+.buttons{
+  display:flex;
+  gap:14px;
+  margin-top:25px;
+}
+
+button{
+  flex:1;
+  padding:13px;
+  border:none;
+  border-radius:10px;
+  font-size:15px;
+  cursor:pointer;
+  background:#00c6ff;
+  color:white;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:translateY(-2px);
+  background:#0072ff;
+}
+
+.reset{
+  background:#555;
+}
